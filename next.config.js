@@ -9,7 +9,8 @@ const withPWA = require('next-pwa')({
 module.exports = withPWA({
   reactStrictMode: true,
   output: 'export',
-  distDir: "docs"
+  distDir: "docs",
+  basePath: "/money-management"
 })
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {

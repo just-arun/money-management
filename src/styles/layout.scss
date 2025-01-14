@@ -1,0 +1,30 @@
+.layout {
+  min-height: 100vh;
+  max-height: 100vh;
+  .content {
+    min-height: calc(100vh - var(--nav-bar-height));
+    padding: 20px 0px;
+  }
+  .nav-bar {
+    position: sticky;
+    bottom: 0px;
+    height: var(--nav-bar-height);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #0f0f0f;
+    .item {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      flex: 1;
+      translate: .3s;
+      font-size: 1rem;
+        padding: 10px;
+      &.active {
+        background: #2d2d2d;
+        border-radius: 4px;
+      }
+    }
+  }
+}

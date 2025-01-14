@@ -1,0 +1,34 @@
+.transactionTile {
+  display: grid;
+  grid-template-areas: "label amount"
+                        "dateTime amount";
+  grid-template-columns: 1fr 160px;
+  background-color: #363636;
+  .transactionTileLabel {
+    grid-area: label;
+    padding: 10px;
+  }
+  .transactionTileDateTime {
+    grid-area: dateTime;
+    padding: 10px;
+  }
+  .transactionTileAmount {
+    grid-area: amount;
+    display: grid;
+    padding: 10px;
+    align-items: center;
+  }
+}
+
+
+.TransactionTileList {
+  padding: 10px;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+
+
+
+
+

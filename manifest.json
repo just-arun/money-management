@@ -5,8 +5,10 @@
   "background_color": "#004740",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/money-management/",
-  "start_url": "/money-management/",
+  "start_url": "https://just-arun.github.io/money-management/",
+  "scope": "https://just-arun.github.io/money-management/",
+  "description": "money management app",
+  "id": "https://just-arun.github.io/money-management/",
   "icons": [
     {
       "src": "/icons/72.png",
